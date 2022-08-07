@@ -5,3 +5,4 @@ terraform {
     }
   }
 }
+provider "aws" {}
