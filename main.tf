@@ -3,9 +3,5 @@ terraform {
     spacelift = {
       source = "spacelift-io/spacelift"
     }
-    aws = {
-     source  = "hashicorp/aws"
-     version = "~> 4.19.0"
-   }
   }
 }
