@@ -1,3 +1,18 @@
+
+terraform {
+  required_providers {
+    spacelift = {
+      source = "spacelift-io/spacelift"
+    }
+    aws = {
+      source  = "hashicorp/aws"
+      version = "~> 3.0"
+    }
+  }
+}
+provider "aws" {
+  region = "eu-west-2"
+}
 # This resource here is to show you how plan policies work.
 
 resource "random_password" "secret" {
